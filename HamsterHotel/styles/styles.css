@@ -1,0 +1,218 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  .navbar .nav-item {
+    margin: 0 9px;
+  }
+  .navbar .nav-item a {
+      color: #fff;
+  }
+
+  #thehero {
+    width: 100%;
+      height: 64vh;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      color: #FFFFFF;
+      background-image: url('/images/hotelMarkupAssets/header.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: relative;
+    } 
+  
+    .box1 {
+      padding-bottom: 40px;
+      }
+    
+    .the-inner {
+        /* UI Properties */
+      background: #000324 0% 0% no-repeat padding-box;
+      opacity: 0.8;
+        width: 45%;
+        height: 40%;
+    }
+    
+    .the-inner h1{
+      font: normal normal normal 45px/57px Dosis;
+      padding-top: 7%;
+      color: #E5FEFF;
+      opacity: 1;
+    }
+    
+    .the-inner p {
+    /* UI Properties */
+  background: #000324 0% 0% no-repeat padding-box;
+  opacity: 0.8;
+    text-align: center;
+    
+    }
+  
+    h1{
+      text-align: center;
+  font: normal normal normal 35px/44px Dosis;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+    }
+  
+  /* .banannabanner {
+      min-height: 400px;
+      background-image: url ("images/hotelMarkupAssets/header.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  .inner-banner {
+      background-color: #0c1257cb;
+      color: #fff;
+      flex: 0 0 auto;
+      padding: 40px 20px;
+      max-width: 700px;
+      width: 100%;
+  }
+  
+  .inner-banner p {
+      font-size: 19px;
+  } */
+
+  #Rooms {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    margin: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        text-align: left;
+        background-image: url('/images/hotelMarkupAssets/bg2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: relative;
+        
+        
+    }
+
+    
+  
+    .card-body{
+      background-color: #fff;
+      color: #1A1B26;
+  padding: 10px;
+    }
+  .card-group {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .package1{
+    object-fit: cover;
+    object-position: 0% 0%;
+  }
+  .package2{
+    object-fit: cover;
+    object-position: 0% 40%;
+  }
+  .package3{
+    object-fit: cover;
+    object-position: 0% 40%;
+  }
+
+  .fw-light{
+    text-align: left;
+font: normal normal normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #1F51A8;
+opacity: 1;
+  }
+
+
+  /* START of Amenities */
+.amenitiesBg {
+  background-image: url("/images/hotelMarkupAssets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: relative;
+}
+
+.amenitiesPaddingTB {
+  padding-top: 4%;
+  padding-bottom: 1%;
+}
+
+.amenitiesPaddingBottom {
+  padding-bottom: 4%;
+}
+
+.amenitiesHeader {
+  margin-top: 3% !important;
+  margin-bottom: 2% !important;
+
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 8%;
+  padding-right: 8%;
+  align-items: flex-end;
+  
+  
+  
+}
+.iconsize1{
+  scale: 80%;
+  
+}
+
+.iconsize2{
+  scale: 90%
+}
+
+.iconsize3{
+  scale: 60%
+}
+
+.iconsize4{
+  scale: 90%
+}
+
+.Reserve{
+  
+  background: #000324 0% 0% no-repeat padding-box;
+  
+}
+
+
+/* Reserve a room section */
+
+.Reserveme{
+  padding-top: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  background-color: #000324;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  color: #E5FEFF;
+}
+
+.packages{
+  font: normal normal normal 25px/32px Dosis;
+}
+
+
